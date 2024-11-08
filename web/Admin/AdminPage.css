@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f8f9fa; /* Light background for better contrast */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #091c3b; /* Navbar background color */
+    padding: 0.5rem; /* Consistent padding */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white; /* Default color for brand */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+}
+
+/* New styles for navbar text */
+.navbar-text {
+    transition: color 0.3s; /* Smooth transition for text hover */
+    color: white;
+}
+
+.navbar-text:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    border-radius: 5px; /* Rounded corners for the background */
+    color: white; /* Color on hover */
+    padding: 0.5rem; /* Padding to create space around the text */
+}
+
+/* Logo styles */
+.navbar-logo {
+    width: 40px; /* Logo image width */
+    height: 40px; /* Logo image height */
+    margin-right: 10px; /* Spacing between logo and text */
+}
+
+/* Navbar links styles */
+.navbar-nav .nav-link {
+    font-size: 18px; /* Link font size */
+    font-weight: bold; /* Link font weight */
+    color: white; /* Default link color */
+    transition: color 0.3s; /* Smooth transition for hover */
+    padding: 0.5rem 1rem; /* Reduced link padding */
+}
+
+/* Hover effect for nav links */
+.navbar-nav .nav-link:hover {
+    color: white; /* Color on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    border-radius: 5px; /* Rounded corners for the background */
+}
+
+/* Container styles */
+.container {
+    margin-top: 150px; /* Adjust for the fixed navbar */
+}
+
+/* Modal styles */
+.modal-content {
+    border-radius: 8px; /* Rounded corners for modals */
+}
+
+/* Button styles */
+.btn-custom {
+    background-color: #FF8C00; /* Button color */
+    border: none; /* Remove border */
+    color: white; /* Button text color */
+}
+
+.btn-custom:hover {
+    background-color: #DD6E0F; /* Darker shade on hover */
+}
+
+/* Active link indication */
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid white; /* Underline for active link */
+}
+
+.flex-box {
+    background-color: white; /* Background color of the box */
+    border-radius: 8px; /* Rounded corners */
+    padding: 75px; /* Padding inside the box */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Box shadow */
+    text-align: center; /* Center text inside the box */
+    width: 400px; /* Fixed width for consistency */
+}
+
+.custom-button {
+    background-color: #091c3b; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+}
+
+.custom-button:hover {
+    background-color: #0a2e49; /* Darker shade on hover */
+    color: white; /* Ensure text color remains white */
+}
+

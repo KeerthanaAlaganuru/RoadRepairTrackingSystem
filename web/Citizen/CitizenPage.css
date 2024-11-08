@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f8f9fa; /* Light background for better contrast */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #091c3b; /* Navbar background color */
+    padding: 0.5rem; /* Consistent padding */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white; /* Default color for brand */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+}
+
+/* New styles for navbar text */
+.navbar-text {
+    transition: color 0.3s; /* Smooth transition for text hover */
+    color: white;
+}
+
+.navbar-text:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    border-radius: 5px; /* Rounded corners for the background */
+    color: white; /* Color on hover */
+    padding: 0.5rem; /* Padding to create space around the text */
+}
+
+/* Logo styles */
+.navbar-logo {
+    width: 40px; /* Logo image width */
+    height: 40px; /* Logo image height */
+    margin-right: 10px; /* Spacing between logo and text */
+}
+
+/* Navbar links styles */
+.navbar-nav .nav-link {
+    font-size: 18px; /* Link font size */
+    font-weight: bold; /* Link font weight */
+    color: white; /* Default link color */
+    transition: color 0.3s; /* Smooth transition for hover */
+    padding: 0.5rem 1rem; /* Reduced link padding */
+}
+
+/* Hover effect for nav links */
+.navbar-nav .nav-link:hover {
+    color: white; /* Color on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    border-radius: 5px; /* Rounded corners for the background */
+}
+
+/* Container styles */
+.container {
+    margin-top: 150px; /* Adjust for the fixed navbar */
+    display: flex; /* Use Flexbox for side-by-side layout */
+    gap: 20px; /* Space between the cards */
+    justify-content: center; /* Center the cards horizontally */
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+}
+
+/* Card styles */
+.card.custom-card {
+    width: 18rem; /* Set a fixed width for the card */
+    margin-top: 10px; /* Add more space on top of the cards */
+}
+
+.card-img-top {
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
+.card-body {
+    padding: 20px; /* Add padding inside the card */
+}
+
+/* Button styles */
+.custom-button {
+    background-color: #091c3b; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    width: 100%; /* Make button take full width */
+}
+
+.custom-button:hover {
+    background-color: #0a2e49; /* Darker shade on hover */
+    color: white; /* Ensure text color remains white */
+}
+
+.welcome-message {
+    text-align: center;
+    margin-top: 100px; /* Space between the navbar and the welcome message */
+    font-size: 20px;
+    color: #333;
+}

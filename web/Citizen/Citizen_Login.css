@@ -1,0 +1,98 @@
+/* Reset and general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Centered login container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Login header */
+.login-container h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Form labels */
+.form-label {
+    color: #555;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+/* Submit buttons */
+.btn-primary {
+    width: 100%;
+    padding: 0.6rem;
+    font-weight: bold;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    background-color: #6c757d;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Alert styling */
+.alert-danger {
+    font-size: 0.9rem;
+}
+
+/* Signup prompt styling inside the login container */
+.signup-prompt {
+    color: #555;
+    font-size: 0.9rem;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-prompt a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
